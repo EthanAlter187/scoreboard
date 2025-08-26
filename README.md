@@ -1,16 +1,32 @@
-# scoreboard_app
+# Scoreboard
 
-A new Flutter project.
+A Flutter-based basketball scoreboard and stat-tracking application designed for local leagues.  
+The app provides real-time scorekeeping, stat collection, and schedule management, with Supabase (PostgreSQL) as the backend for authentication and data storage.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Live game scoreboard with customizable quarter length and timeouts.
+- Player stat tracking (points, rebounds, assists, fouls).
+- Schedule creation and weekly matchup display.
+- Team and player management (names, jersey numbers, colors).
+- Supabase integration for backend storage and user authentication.
+- Clean UI with navigation for teams, schedules, and games.
+- Email & Password account system for creating leagues and storing data.
+- Dispersable invite code for adding viewers to a league.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Flutter** (Dart)
+- **Supabase** (Postgres + Auth)
+- **State Management**: Provider / ChangeNotifier
+- **Platform**: Mobile + Web
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📂 Code Structure
+The main entry point of the app is here:  
+[`lib/main.dart`](./lib/main.dart)
+
+The app is split up into a large collection of class files within the [`lib/`](./lib) directory.
