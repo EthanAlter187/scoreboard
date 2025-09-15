@@ -19,7 +19,7 @@ The app provides real-time scorekeeping, stat collection, and schedule managemen
 
 ## 🛠️ Tech Stack
 - **Flutter** (Dart)
-- **Supabase** (Postgres + Auth)
+- **Supabase** (PostgresSQL)
 - **State Management**: Provider / ChangeNotifier
 - **Platform**: Mobile + Web
 
@@ -28,6 +28,12 @@ The app provides real-time scorekeeping, stat collection, and schedule managemen
 ## 📖 Code Structure & Class Overview
 
 This project is structured around Flutter widgets for UI, data model classes for persistence, and a central state manager (`MyAppData`) backed by Supabase. The project includes a collection of classes that are split into separate dart files within the [`/lib`](lib) directory.
+
+---
+
+## 🎮 Running the App
+
+Scoreboard can be run by double clicking the Scoreboard executable. This can be found within the ['Scoreboard.zip'](Scoreboard.zip) file. Simply download the file and run the executable from within the folder.
 
 ---
 
